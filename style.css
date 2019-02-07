@@ -1,0 +1,41 @@
+/* Styles go here */
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+p {
+  color: #fff;
+}
+
+.plus {
+  cursor: url('http://dionisi.biz/images/cursor-plus.png'), auto;
+}
+
+.minus {
+  cursor: url('http://dionisi.biz/images/cursor-minus.png'), auto;
+}
+
+div {
+  border: 2px solid;
+  position: relative;
+  overflow: hidden;
+  background-color: #666;
+  color: #fff;
+  font: bold 9px/20px sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#container {
+  border: none;
+}
+
+.details {
+  display: none;
+}
+
+
